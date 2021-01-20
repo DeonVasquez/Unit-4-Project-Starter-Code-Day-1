@@ -1,0 +1,288 @@
+<!DOCTYPE html> <html><head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <title>Unit 4 Project Starter Code: Day 1</title>
+    <style>img {
+    height: 200px;
+}
+
+body {
+    background: linear-gradient(to right, #261F5F, #2D42A3, #3852CC, #4666FF, #6646FF);
+}
+
+.box {
+    display: block;
+    width: auto;
+    height: 2000px;
+    border: 10px solid #7D12FF;
+    border-style: ridge;
+    box-shadow: 0 3px 50px #AB20FD;
+
+}
+
+.placeholderimg {
+    width: 100%;
+    background: url("https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1591125773722-NDRSXJT645AR2JHL77SG/rad-star-wars-fan-art-show-ahsoka-tano-on-her-speeder-bike-social.jpg?format=1500w&content-type=image%2Fjpeg") center;
+    height: 750px;
+    border: solid;
+}
+
+.profilepic {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-top: -310px;
+    border: solid 10px pink;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/89ee8664-d627-4854-b03b-47b5038db0de/ddsmljg-5e046658-caac-4768-b696-5655b164e0cd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODllZTg2NjQtZDYyNy00ODU0LWIwM2ItNDdiNTAzOGRiMGRlXC9kZHNtbGpnLTVlMDQ2NjU4LWNhYWMtNDc2OC1iNjk2LTU2NTViMTY0ZTBjZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.LcRZjhfrQCZjCWgeW1Mbed6H2YMjJh1PMz6ll65HECU") no-repeat center;
+    background-size: 301px;
+    box-shadow: 5px 10px;
+    float: left;
+    margin-left: 50px;
+    border-style: ridge;
+    box-shadow: 0 3px 50px hotpink;
+}
+
+
+.title {
+    height: 3%;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+    color: #3CBFAF;
+    background-color: black;
+    font-size: 15px;
+    text-shadow: 1px 1px 3px white, 0 0 40px pink, 10px 20px 50px #CE102C;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: underline;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: solid;
+    margin-top: -1px;
+    background: linear-gradient(to right, #0CDCFF, #2D42A3, #4666FF, #0CDCFF, #0CDCFF);
+}
+
+.menu-item {
+    text-align: center;
+    width: 220px;
+    height: 27px;
+    padding: 45px;
+    border: solid hotpink 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -25px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    background: linear-gradient(to right, #ED008C, #EF1465, #ED008C, #EF1465, #ED008C);
+    text-shadow: 1px 2px 5px white;
+    box-shadow: 0 3px 50px hotpink;
+
+}
+
+.bio {
+    width: 600px;
+    height: 250px;
+    border: solid lightgrey;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 2px 10px blue;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    background: linear-gradient(to right, lightblue, skyblue, lightblue);
+}
+
+.posttitle {
+
+    position: absolute;
+    left: 625px;
+    width: 1000px;
+    height: 100px;
+    border: solid blue 15px;
+    margin-top: -257px;
+    background: linear-gradient(to right, #0CDCFF, #4666FF, #0CDCFF);
+    font-family: "Audiowide", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 2px 10px white;
+    text-decoration: underline;
+    border-style: outset;
+}
+
+.postoutline {
+    position: absolute;
+    left: 625px;
+    width: 1000px;
+    height: 942px;
+    border: solid blue 15px;
+    margin-top: -155px;
+    border-style: inset;
+
+}
+
+.post1 {
+    position: absolute;
+    left: 855px;
+    width: 550px;
+    height: 500px;
+    border: solid;
+    background: url(https://i.pinimg.com/736x/79/3c/44/793c442bb702ddd9206e2b31e52a0321.jpg) no-repeat center;
+    margin-top: -125px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px #AB20FD;
+    padding: 10px;
+
+
+}
+
+.post1T {
+    position: absolute;
+    left: 855px;
+    width: 565px;
+    height: 90px;
+    border: solid black;
+    margin-top: 400px;
+    border-radius: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    text-shadow: 1px 2px 10px white;
+    background: linear-gradient(to right, #0CDCFF, #4666FF, #0CDCFF);
+}
+
+.likes {
+    text-decoration: underline;
+}
+
+.extrainfo {
+    position: absolute;
+    right: 10px;
+    width: 528px;
+    height: 450px;
+    border: solid blue;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 2px 10px blue;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    background: linear-gradient(to right, purple, indigo, purple);
+    margin-top: -255px;
+    color: pink;
+
+}
+
+.extrainfo1 {
+    color: violet;
+}
+
+.friends {
+    position: absolute;
+    right: 10px;
+    width: 528px;
+    height: 609px;
+    border: solid blue;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 2px 10px hotpink;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    background: linear-gradient(to right, #00008B, black, #00008B);
+    margin-top: 202px;
+    color: skyblue;
+
+}
+.idk {
+    width: 600px;
+    height: 810px;
+    border: solid;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 2px 10px blue;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/ad7cddcd-66be-413d-88c4-2062233654a2/dafv5hi-9ad707ae-4662-4ec0-a0ec-2be45b51d20f.png) no-repeat center;
+    
+}
+</style></head>
+    <body>
+        <div class="box">
+            <div class="title">
+                <h1>Ahsoka Tano</h1>
+            </div>
+
+            <div class="placeholderimg">
+            </div>
+            <div class="menu">
+                <div class="menu-item"> Followers: 322 </div>
+                <div class="menu-item"> Following: 212 </div>
+                <div class="menu-item"> Likes: 501 </div>
+            </div>
+            <div class="profilepic">
+            </div>
+            <div class="bio">
+                <h2>About Me</h2>
+                <ul>
+                    <li>Jedi Padawan</li>
+                    <li>Commander of the Galactic Republic</li>
+                    <li>Two Lightsabers :O</li>
+                    <li>Raised at the Jedi Temple :)</li>
+                </ul>
+            </div>
+            <div class="posttitle">
+                <h2>Posts</h2>
+            </div>
+            <div class="postoutline">
+            </div>
+            <div class="post1">
+            </div>
+            <div class="post1T">
+                <p> Thanks for the fan art with my friends!!! </p>
+                <p class="likes"> Likes: 155 </p>
+            </div>
+            <div class="extrainfo">
+                <h3>Last Online: 18 hours ago</h3>
+                <p> .</p>
+                <p class="extrainfo1"> Account created: 3 years ago </p>
+                <p> .</p>
+                <p> Recent Award: Veteran of the Clone Wars </p>
+                <p> .</p>
+            </div>
+            <div class="friends">
+                <h2>Friends List</h2>
+                <p> . </p>
+                <ul>
+                    <li>Anakin Skywalker</li>
+                </ul>
+                <p> . </p>
+                <ul>
+                    <li>Captain Rex</li>
+                </ul>
+                <p> . </p>
+                <ul>
+                    <li>Obi Wan Kenobi</li>
+                                    </ul>
+                <p> . </p>
+                <ul>
+                    <li>Yoda</li>
+                                    </ul>
+                <p> . </p>
+            </div>
+            <div class="idk">
+            </div>
+        </div>
+
+
+
+
+    
+</body></html>
